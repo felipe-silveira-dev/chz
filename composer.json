@@ -1,0 +1,38 @@
+{
+    "name": "phillipe-ciranda-alpaclass/chz",
+    "description": "Powered by Chartisan",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.4",
+        "illuminate/contracts": "^7.14.1|^8.0|^9.0",
+        "illuminate/http": "^7.14.1|^8.0|^9.0",
+        "illuminate/console": "^7.14.1|^8.0|^9.0",
+        "illuminate/support": "^7.14.1|^8.0|^9.0",
+        "phillipe-ciranda-alpaclass/chz-php": "^1.2"
+    },
+    "authors": [
+        {
+            "name": "Phillipe Ciranda",
+            "email": "phillipe.ciranda@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/phillipe-ciranda-alpaclass/chz-php"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "ConsoleTVs\\Charts\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ConsoleTVs\\Charts\\ChartsServiceProvider"
+            ]
+        }
+    }
+}

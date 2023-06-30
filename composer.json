@@ -1,5 +1,5 @@
 {
-    "name": "phillipe-ciranda-alpaclass/chz",
+    "name": "felipe-silveira-dev/chz",
     "description": "Powered by Chartisan",
     "license": "MIT",
     "type": "library",
@@ -15,6 +15,10 @@
         {
             "name": "Phillipe Ciranda",
             "email": "phillipe.ciranda@gmail.com"
+        },
+        {
+            "name": "Felipe Silveira",
+            "email": "felipe.silveira4@fatec.sp.gov.br"
         }
     ],
     "repositories": [
